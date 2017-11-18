@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {
+	height: 100%;
+	/* [disabled]background-color: rgba(0,0,0,1.00); */
+}
+
+
+.row .col-xs-12 .row {
+	position: relative;
+}
+.row .col-xs-12 footer {
+	clear: both;
+	/* [disabled]border-top: 1px solid rgba(222,172,100,0.50); */
+	/* [disabled]border-bottom: 1px solid rgba(222,172,100,0.50); */
+}
+.col-xs-4 .img-responsive.hinh-hover-1 {
+	position: absolute;
+	top: 0px;
+}
+.col-xs-4 .img-responsive.hinh-hover-2 {
+	position: absolute;
+	top: 0px;
+}
+.col-xs-4 .img-responsive.hinh-hover-3 {
+	position: absolute;
+	top: 0px;
+}
+.row .col-xs-4 .movie {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .book {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .backstage {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .img-responsive {
+	width: 100%;
+}
+.content   {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	color: #FFEBCE;
+	font-family: MenuChuThuong;
+}
+.btn-default {
+	background-color: rgba(0,0,0,0.00);
+	background-image: url(../image/About%20us/Back-sword.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20%;
+	border: 1px solid rgba(0,0,0,0.00);
+	transition: all .5s;
+}
+
+.btn-default:hover {
+	background-image: url url(../image/About%20us/Sting-sword.png);
+}
+
+
+
+@media (max-width:768px){
+
+.content   {
+	display: none;
+}
+
+.pic1    {
+	display: none;
+}
+.row .col-xs-12 footer {
+	border-top: 1px solid rgba(222,172,100,1);
+	border-bottom: 1px solid rgba(222,172,100,1);
+}
+.content-tab   {
+	color: rgba(222,172,100,1);
+	font-family: MenuChuThuong;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.title-booktablet   {
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	text-align: center;
+	color: rgba(255,224,179,1.00);
+	text-shadow: 0px 0px 5px rgba(0,0,0,1.00);
+	font-family: MenuChuThuong;
+	font-size: 260%;
+
+}
+.tablet   {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+}
+
+@media (min-width:768px){
+.row .col-xs-12 .col-sm-7.content-tab {
+	display: none;
+}
+.row .col-xs-12 .tablet {
+	display: none;
+}
+
+
+}
+
+@media (max-width:360px){
+.row .col-xs-12 .tablet {
+	margin-top: 50px;
+
+
+
+
+}
+div a .btn.btn-sm.btn-default {
+	width: 40%;
+}
+
+
+
+}

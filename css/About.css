@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body {
+	height: 100%;
+	/* [disabled]background-color: rgba(0,0,0,1.00); */
+}
+.col-xs-4 .img-responsive.hinh-hover-1 {
+	position: absolute;
+	top: 0px;
+}
+.col-xs-4 .img-responsive.hinh-hover-2 {
+	position: absolute;
+	top: 0px;
+}
+.col-xs-4 .img-responsive.hinh-hover-3 {
+	position: absolute;
+	top: 0px;
+}
+.row .col-xs-4 .movie {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .book {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .backstage {
+	position: absolute;
+	top: 45%;
+}
+.row .col-xs-4 .img-responsive {
+	width: 100%;
+}
+.content   {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	color: #FFEBCE;
+	font-family: MenuChuThuong;
+}
+.btn-default {
+	background-color: rgba(0,0,0,0.00);
+	background-image: url(../image/About%20us/Back-sword.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20%;
+	border: 1px solid rgba(0,0,0,0.00);
+	transition: all .5s;
+}
+
+.btn-default:hover {
+	background-image: url url(../image/About%20us/Sting-sword.png);
+}
+
+
+@media (max-width:767px){
+.col-xs-12 .row .col-xs-4 {
+	margin-top: 50px;
+}
+
+}
+
+@media (max-width:360px){
+.col-xs-12 .row .col-xs-4 {
+	display: none;
+}
+.col-xs-12 .row .mobile {
+	margin-top: 50px;
+
+
+
+}
+
+
+}
+
+@media (min-width:361px){
+.col-xs-12 .row .mobile {
+	display: none;
+}
+
+}

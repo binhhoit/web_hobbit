@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.col-md-3 .thumbnail img {
+	transition: all .5s;
+}
+
+.col-md-3 .thumbnail img:hover  {
+	transform: scale(1.1,1.1);
+}
+.frame .img-responsive.back  {
+	width: 150px;
+	pointer-events: none;
+	float: left;
+}
+.col-md-3 .thumbnail a {
+	display: block;
+}
+.row .col-md-3 .thumnail img {
+	cursor:pointer;
+	}

@@ -1,0 +1,100 @@
+@charset "utf-8";
+*{outline:none;}
+.col-xs-12 .row .col-xs-12.pic-slide {
+	background-image: url(../image/Gallery/cast_download.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	height: 600px;
+	transition: all 40s ease-out;
+}
+
+.move {
+	animation: move 40s infinite;
+	-webkit-animation: move 40s infinite;
+	-moz-animation: move 40s infinite;
+	animation-direction: alternate;
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	
+}
+
+@keyframes move {
+    0% {background-position: 0% 0%;}
+	25%{background-position: 25% 0%;}
+	50%{background-position: 50% 0%;}
+	75%{background-position: 75% 0%;}
+    100% {background-position: 100% 0%;}
+}
+.row .col-xs-12.pic-slide #start {
+	position: absolute;
+	top: 47%;
+	left: 43%;
+	font-family: MenuChuThuong;
+	border-radius: 0%;
+	width: 125px;
+	height: 125px;
+	background-color: rgba(0,0,0,0.00);
+	border: 2px solid rgba(222,172,100,0.00);
+	color: rgba(255,255,255,1.00);
+	font-size: 20px;
+	transition: all 0.5s;
+	background-image: url(../image/Gallery/FireRing2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.row .col-xs-12.pic-slide #start:hover {
+	/* [disabled]background-color: rgba(0,0,0,1); */
+	color: rgba(222,172,100,1);
+	transform: rotate(360deg) scale(1.2,1.2);
+	border-radius: 50%;
+}
+
+.row .col-xs-12.pic-slide #gallery-pic {
+	position: absolute;
+	left: 10%;
+	width: 120px;
+	height: 120px;
+	font-family: MenuChuThuong;
+	color: rgba(255,255,255,0.30);
+	font-size: 18px;
+	border: 2px solid rgba(222,172,100,0.00);
+	background-color: rgba(0,0,0,0.00);
+	bottom: 5%;
+	transition: all .5s;
+	
+	background-image: url(../image/Gallery/FireRing2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+}
+.row .col-xs-12.pic-slide #gallery-pic:hover  {
+	color: rgba(255,255,255,1.00);
+	opacity: 1;
+}
+.row .col-xs-12.pic-slide #gallery-soundtrack {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	font-family: MenuChuThuong;
+	color: rgba(255,255,255,0.30);
+	font-size: 18px;
+	
+	border: 2px solid rgba(222,172,100,0);
+	background-color: rgba(0,0,0,0.00);
+	bottom: 5%;
+	right: 10%;
+	transition: all .5s;
+	background-image: url(../image/Gallery/FireRing2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	opacity: 0.5;
+}
+
+.row .col-xs-12.pic-slide #gallery-soundtrack:hover  {
+	color: rgba(255,255,255,1.00);
+	opacity: 1;
+}

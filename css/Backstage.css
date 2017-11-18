@@ -1,0 +1,39 @@
+@charset "utf-8";
+#tbi_slider {
+	overflow: hidden;
+	margin-top: 120px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+	padding: 0;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	width: 80%;
+} 
+#tbi_slider ul {     margin: 0;     padding: 0;     width: 2000px; } 
+#tbi_slider li {
+	position: relative;
+	display: block;
+	float: left;
+	width: 160px;
+	border-left: 1px solid rgba(222,172,100,1);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+} #tbi_slider ul:hover li {     width: 40px; } #tbi_slider ul li:hover {     width: 640px; } #tbi_slider li img {
+	display: block;
+	width: 700px;
+} #tbi_title {     position: absolute;     top: 0;     left: 0;     padding: 20px;     width: 640px;     background: rgba(0, 0, 0, 0.5);     color: #fff;     font: bold 16px 'trebuchet MS', sans-serif; } #tbi_title a {     display: block;     color: #fff;     text-decoration: none;.col-xs-12 .row .col-xs-12 {
+}
+
+
+
+
+footer   {
+	border-bottom: 1px solid rgba(222,172,100,1);
+	border-top: 1px solid rgba(222,172,100,1);
+}

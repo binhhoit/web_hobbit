@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.col-xs-12 {
+	background-image: url(../IMG/Characters/hobbit_01.jpg);
+	height: 550px;
+	text-align: center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.col-xs-12 footer {
+	padding-bottom: 0px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+
+body {
+	width: 100%;
+	text-align: center;
+}
+.row .col-xs-12 .row.cast {
+	margin-left: 32%;
+	position: absolute;
+	width: 50%;
+	bottom: 7%;
+}
+.col-xs-12 .row.cast .col-xs-3 {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 15%;
+
+}
+.row.cast .col-xs-3 .Pic {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.fire   {
+	width: 90%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.fire:hover {
+	animation: rotate linear 2s infinite;	
+}
+
+#f1 {
+	animation: rotate linear 2s infinite;
+}
+
+.row .col-xs-12 #Text {
+	margin-top: 8%;
+	margin-left: 25%;
+	width: 46%;
+	color: #1B0F04;
+}
+
+
+@keyframes rotate{
+  0%{transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}
+
+@media (max-width:767px) {
+.col-xs-12 .row.cast .col-xs-3 {
+	width: 36%;
+	margin-bottom: 18px;
+	margin-right: 85px;
+}
+.row .col-xs-12 .row.cast {
+	text-align: center;
+
+}
+
+
+
+}
+
+@media (max-width:414px){
+.row .col-xs-12 .row.cast {
+	margin-left: 117px;
+}
+
+}

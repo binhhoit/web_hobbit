@@ -1,0 +1,63 @@
+@charset "utf-8";
+*{outline:none;}
+@import url("../webfonts/MenuChuThuong/stylesheet.css");
+
+.row .col-xs-12 .navbar.navbar-default.navbar-fixed-top {
+	background-color: rgba(0,0,0,0.85);
+	border: 1px solid rgba(0,0,0,0.00);
+}
+.nav.navbar-nav.navbar-right li a {
+	color: rgba(222,172,100,0.55);
+	transition: all .5s;
+	font-family: MenuChuThuong;
+}
+
+.nav.navbar-nav.navbar-right li a:hover  {
+	color: rgba(255,225,184,1.00);
+}
+
+.nav.navbar-nav.navbar-right li a.acitve  {
+	color: rgba(255,225,184,1.00);
+}
+.row .col-xs-12 footer {
+	background-color: rgba(0,0,0,1.00);
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: rgba(222,172,100,1);
+	font-family: MenuChuThuong;
+}
+.navbar.navbar-default.navbar-fixed-top .container-fluid .navbar-header {
+
+}
+.row .col-xs-12 {
+	margin: 0px;
+	padding: 0px;
+}
+.row .col-xs-4  {
+	margin: 0px;
+	padding: 0px;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: rgba(0,0,0,1.00);
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	outline: none;
+}
+
+*:focus, *:active {
+	outline: none;
+}
+button:active { outline: none }
+button:focus { outline:none }
+.row .col-md-3 .thumnail {
+	cursor:pointer;
+	}
